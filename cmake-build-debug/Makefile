@@ -170,33 +170,6 @@ jzoffer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/2d-array.cpp.s
 .PHONY : 2d-array.cpp.s
 
-find-repeat.o: find-repeat.cpp.o
-
-.PHONY : find-repeat.o
-
-# target to build an object file
-find-repeat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/find-repeat.cpp.o
-.PHONY : find-repeat.cpp.o
-
-find-repeat.i: find-repeat.cpp.i
-
-.PHONY : find-repeat.i
-
-# target to preprocess a source file
-find-repeat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/find-repeat.cpp.i
-.PHONY : find-repeat.cpp.i
-
-find-repeat.s: find-repeat.cpp.s
-
-.PHONY : find-repeat.s
-
-# target to generate assembly for a file
-find-repeat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/find-repeat.cpp.s
-.PHONY : find-repeat.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,9 +182,6 @@ help:
 	@echo "... 2d-array.o"
 	@echo "... 2d-array.i"
 	@echo "... 2d-array.s"
-	@echo "... find-repeat.o"
-	@echo "... find-repeat.i"
-	@echo "... find-repeat.s"
 .PHONY : help
 
 

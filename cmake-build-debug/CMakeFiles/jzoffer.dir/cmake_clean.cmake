@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/jzoffer.dir/2d-array.cpp.o"
-  "CMakeFiles/jzoffer.dir/find-repeat.cpp.o"
   "jzoffer"
   "jzoffer.pdb"
 )
