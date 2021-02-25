@@ -143,32 +143,32 @@ jzoffer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/build
 .PHONY : jzoffer/fast
 
-2d-array.o: 2d-array.cpp.o
+replace-blankspace.o: replace-blankspace.cpp.o
 
-.PHONY : 2d-array.o
+.PHONY : replace-blankspace.o
 
 # target to build an object file
-2d-array.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/2d-array.cpp.o
-.PHONY : 2d-array.cpp.o
+replace-blankspace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/replace-blankspace.cpp.o
+.PHONY : replace-blankspace.cpp.o
 
-2d-array.i: 2d-array.cpp.i
+replace-blankspace.i: replace-blankspace.cpp.i
 
-.PHONY : 2d-array.i
+.PHONY : replace-blankspace.i
 
 # target to preprocess a source file
-2d-array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/2d-array.cpp.i
-.PHONY : 2d-array.cpp.i
+replace-blankspace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/replace-blankspace.cpp.i
+.PHONY : replace-blankspace.cpp.i
 
-2d-array.s: 2d-array.cpp.s
+replace-blankspace.s: replace-blankspace.cpp.s
 
-.PHONY : 2d-array.s
+.PHONY : replace-blankspace.s
 
 # target to generate assembly for a file
-2d-array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/2d-array.cpp.s
-.PHONY : 2d-array.cpp.s
+replace-blankspace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/replace-blankspace.cpp.s
+.PHONY : replace-blankspace.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... jzoffer"
-	@echo "... 2d-array.o"
-	@echo "... 2d-array.i"
-	@echo "... 2d-array.s"
+	@echo "... replace-blankspace.o"
+	@echo "... replace-blankspace.i"
+	@echo "... replace-blankspace.s"
 .PHONY : help
 
 

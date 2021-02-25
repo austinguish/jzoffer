@@ -3,4 +3,4 @@ project(jzoffer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(jzoffer 2d-array.cpp)
+add_executable(jzoffer  replace-blankspace.cpp)
