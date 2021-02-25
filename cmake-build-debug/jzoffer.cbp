@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/austinguish/CLionProjects/jzoffer/2d-array.cpp">
+			<Option target="jzoffer"/>
+		</Unit>
 		<Unit filename="/Users/austinguish/CLionProjects/jzoffer/find-repeat.cpp">
 			<Option target="jzoffer"/>
 		</Unit>

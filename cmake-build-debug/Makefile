@@ -143,6 +143,33 @@ jzoffer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/build
 .PHONY : jzoffer/fast
 
+2d-array.o: 2d-array.cpp.o
+
+.PHONY : 2d-array.o
+
+# target to build an object file
+2d-array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/2d-array.cpp.o
+.PHONY : 2d-array.cpp.o
+
+2d-array.i: 2d-array.cpp.i
+
+.PHONY : 2d-array.i
+
+# target to preprocess a source file
+2d-array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/2d-array.cpp.i
+.PHONY : 2d-array.cpp.i
+
+2d-array.s: 2d-array.cpp.s
+
+.PHONY : 2d-array.s
+
+# target to generate assembly for a file
+2d-array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/2d-array.cpp.s
+.PHONY : 2d-array.cpp.s
+
 find-repeat.o: find-repeat.cpp.o
 
 .PHONY : find-repeat.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... jzoffer"
+	@echo "... 2d-array.o"
+	@echo "... 2d-array.i"
+	@echo "... 2d-array.s"
 	@echo "... find-repeat.o"
 	@echo "... find-repeat.i"
 	@echo "... find-repeat.s"

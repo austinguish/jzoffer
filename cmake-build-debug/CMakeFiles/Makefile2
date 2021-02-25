@@ -94,12 +94,12 @@ clean: CMakeFiles/jzoffer.dir/clean
 CMakeFiles/jzoffer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jzoffer.dir/build.make CMakeFiles/jzoffer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/austinguish/CLionProjects/jzoffer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target jzoffer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/austinguish/CLionProjects/jzoffer/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target jzoffer"
 .PHONY : CMakeFiles/jzoffer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/jzoffer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austinguish/CLionProjects/jzoffer/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austinguish/CLionProjects/jzoffer/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/jzoffer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/austinguish/CLionProjects/jzoffer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/jzoffer.dir/rule
